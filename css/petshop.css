@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: url(../img/fundo-topo.jpg);
+    padding: 10px 0;
+}
+header h1{
+    margin: 0;
+    height: 84px;
+}
+
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    margin-right: 20px;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #6dd432;
+}
+
+/* Estilos Especificos IDS */
+
+#itemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/* Estilos recorrentes Class */
+.fundo-verde{
+    background-color: #6dd432;
+}
+.conteiner{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-conteiner .col{
+    width: 430px;
+}
